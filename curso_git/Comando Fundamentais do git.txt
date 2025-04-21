@@ -1,0 +1,77 @@
+Passo a Passo criar projeto na maquina e no github
+	git init -> comando pra iniciar usadado no terminal da pasta
+		Depois crie um arquivo no projeto pode ser um index
+	git add -> o nome do arquivo que foi criado exemplo index.html
+	git status -> verifica que o index foi criado
+	git commit -m "first commit" -> fazer o primeiro comentario
+	git branch -M main -> criar a  branch master
+	git remote add origin https://github.com/GedasioSilva/teste2.git -> comando pra conectar no github
+		Esse código fica disponivel no git hub quando estamos criando um projeto
+	git push -u origin main -> comando mandar o projeto
+
+
+Comando muitos utilizados
+	git init -> comando pra iniciar um projeto 
+	git status -> pra verificar se foi iniciado
+	criar um projeto no git sem o redmi ai precisa configurar algumas coisas
+	cd .\nome da pasta\ pra abrir a pasta dentro do terminal
+	git add -> pra adicionar o arquivo no caso o arquivo  teste.txt
+	git commit -a -m "hello world git" -> pra criar um commite
+	git commit -a -m "Olá -> se antes de colocar o outro (") aperta o entre pula a linha onde podemos coloca um subtitulo 
+	depois que terminar o subtitulo coloca o (") e entre
+	git branch -m master
+	git remote add origin -> pega o link do projeto no git hub
+	git push -u origin master -> pra adicionar na origem
+	git add . -> pra adicionar todos os arquivos
+
+Comando pra serem utilizado quando estamos utilizado gits de outras Pessoas
+	#comando pra comentar o arquivo  e enviar git commit o nome do arquivo -m e um titulo do comite
+	git commit index.html -m "Estou enviando o index do arquivo"
+
+	#o comando -a -m é e o texto é pra enviar diversos arquivos
+	git commit -a -m "Enviar diversos arquivos"
+	
+	antes de utilizar o comando pust é bom utilizar o 
+	git add . -> pra adicionar os arquivos
+	
+	#todas as vezes que criar commit é o bom usar o git push pra mandar o codigo no repositorio
+	git push -> pra mandar os commites pro repositorio
+
+	#é pra pegar as alterações feitas no git remoto e puxa pro git local "git local é sua maquina"
+	git pull -> 
+
+	#é pra voltar a pra voltar a pasta de cd/aula/git pra cd/aula
+	cd .. 
+
+	#utilizado quando pegamos algum projeto que esta no github e colocamos na nossa maquina
+	git clone -> depois coloca a url do que encontra no github no projeto code https url . " espaço . pra coloca na pasta aberta"
+
+	#comando pra deletar um arquivo 
+	git rm -> "nome do arquivo exemplo index.html"
+
+	#comando git log mostra as atualizações no projeto,depois pra sair apera contro c ou "q"
+	git log 
+
+	#commando pra mover um arquivo entre pastas e trocar o nome se quiser
+	git mv -> "nome do arquivo " index.html "nome pasta" projeto "nome do arquivo o mesmo nome se não for mudar o nome atual"
+
+	#utilizando o comando git mv pra mudar o nome do arquivo
+	"primeiro o nome da pasta e do aruivo" depois o nome da pasta já que a pasta é a mesma e nome do arquivo atualizado
+	git mv -> git mv projeto/inde.html projeto/index.html
+
+	#utilizo o git checkout quando fiz uma mudança no meu código porém não quero mandar a mudança que eu fiz 
+	#tipo eu peguei no index e criei um paragrafago ai eu apaguei porem se eu colocar git status apararece oque eu fiz
+	#e não posso fazer um commit pq essa mudança vai junto então uso esse comando
+	git checkout -> "depois o nome da pasta onde o arquivo ta e o nome do arquivo"
+
+	"criar um aquivo com o nome git gitignore e colocar um nome de um aquivo dentro dele exemplo index.html"
+	que dizer que qualquer alteração que eu fizer no arquivo index.html não vai aparecer na ignora o arquivo index.html como
+	se o arquivo não existice , primeiro coloca o nome do arquivo dentro o gitignore depois cria o arquivo
+	gitignore -> "CRIAR ESSE ARQUIVO E COLOCA O NOME DO ARQUIVO IGNORADO DENTRO"
+
+	#quando fizemos alterações no código porém depois quero tirar as alterações feitas e voltar como tava o ultimo commit
+	git reset --hard origin/master -> dessa forma reseta la no git e apaga o commit feito
+	
+	--Private branches
+	Seria criar uma branche onde você 
+	faria sua alerações e depois mandar ela finalizada como outra branch

@@ -1,0 +1,77 @@
+--COMANDO BANCHE
+	comando utilizado pra criar e entender os branches
+	quando criar branches devemos utilizar como base o branche principal
+	git branch -> pra mostrar os branch e criar outros branches
+
+	Pegar os dados criado no repositorio comando git clone a url do projeto depois espaço ponto
+	git clone https://github.com/GedasioSilva/Curso_Git_Github.git .
+
+	criando outro branche pra não mexer no principal , git branch e o nome
+	git branch primeiro_branch
+
+	comando deletar o branch -> git branch -d "nome do branche"
+	git branch -m segundo_branch
+
+	comando para acessar algum branch git checkout nome do branch
+	git checkout primeiro_branch
+
+	mudar e branche criando um branch nono git checkout -b e o nome
+	git checkout -b teste_criacao
+
+	comando pra juntar dois branch nome do primeiro marge e nome do segundo
+	git primeiro_branch merge teste_criacao
+
+--Comando Git show 
+	git show -> comando pra mostrar as alterações na branch
+
+-- Comando git diff
+	git diff -> comando pra mostrar as diferenças
+
+-- comando git shortlog
+	git shotlog -> nos da um log resumido do Projeto
+
+-- COMANDO STASH
+	comando pra apagar as alterações feitas porém salvando o código
+	git stash
+
+	comando pra verificar as stash criadas
+	git stash list
+
+	comando pra pegar o conteudo da stash
+	git stash apply " o numero da stash 0 ou 1 etc"
+
+	comando pra verificar as alterações em cada stash
+	git stash show -p "o numero da stash"
+
+	comando pra apagar uma stash especifica 
+	git stash drop "o numero da stash"
+
+	comando pra apagar todas as stash
+	git stash clear
+
+--Comandos tag
+
+criando tag é um checkpoint de uma brench forma de salvar em determinado lugar
+quiser acessar como tava o código em cada vesão verificar oque mudou em cada commit
+
+criar uma tag
+git tag -a "nome da tag" -m "comentario"
+
+Toda vez que criar uma tag fazer um commit
+
+comando pra verificar as tag 
+git tag
+
+comando verificar uma tag especifica
+git show "nome da tag"
+	
+comando pra trocar de tag
+git checkout "nome"
+
+comando pra enviar uma tag especifica ao github
+git push origin "nome da tag"
+
+comando pra enviar umatodas as tag  ao github
+git push origin --tags
+	
+	

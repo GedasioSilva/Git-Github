@@ -1,0 +1,24 @@
+--COMANDO PRA UTILIZAR BRANCHS COMPARTILHADAS
+
+Quando algum dev mandar uma branch no master eu utilizo o git fetch 
+pra acessar o branch dele na maquina dele 
+git fetch -a
+
+depois utilize o comando pra buscar o branch especifico
+git chekout "nome do branch criado pelo dev"
+
+depois se eu digitar git branch deve aparecer o branch criado por ele
+git branch -> verifica os branchs criados
+
+--RECEBENDO ALTERAÇÕES
+git checkout master -> acessa a master
+
+git pull -> recebe as alterações
+
+comando criar uma branch
+git checkout -b "Adicionar_o_css_home" -> colocando sem espaçoes
+
+comando pra remover a url do projeto
+git remote -v -> pra desconectar com o git hub
+
+

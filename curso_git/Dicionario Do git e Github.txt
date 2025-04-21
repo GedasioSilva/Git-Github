@@ -1,0 +1,5 @@
+Aqui estamos definindo conteudos dentro do git
+
+branch -> é uma forma que o git "SEPARA AS VERSÕES DOS PROJETOS"
+	exemplo->para o desenvolvedor não fazer alterações no projeto principal
+

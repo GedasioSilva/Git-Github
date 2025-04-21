@@ -1,0 +1,38 @@
+ Comandos mais comuns do Git no dia a dia:
+🔍 Visualização do estado e histórico:
+git status → Mostra o status atual dos arquivos (modificados, staged, untracked, etc).
+
+git log → Mostra o histórico de commits.
+
+git diff → Mostra as diferenças entre arquivos modificados.
+
+📥 Baixar alterações:
+git pull → Puxa as alterações do repositório remoto e faz merge na branch atual.
+
+git fetch → Baixa alterações remotas sem fazer merge automático.
+
+💾 Trabalhando com commits:
+git add . ou git add <arquivo> → Adiciona arquivos para staging.
+
+git commit -m "mensagem" → Cria um commit com os arquivos em staging.
+
+git commit --amend → Altera o último commit (muito usado para corrigir mensagem ou adicionar algo que faltou).
+
+🚚 Enviando alterações:
+git push → Envia commits locais para o repositório remoto.
+
+🌿 Trabalhando com branches:
+git branch → Lista as branches locais.
+
+git checkout -b nome-da-branch → Cria e muda para uma nova branch.
+
+git checkout nome-da-branch → Muda para uma branch existente.
+
+git merge nome-da-branch → Faz merge da branch informada na branch atual.
+
+git branch -d nome-da-branch → Deleta branch local.
+
+🧹 Limpeza:
+git stash → Guarda mudanças temporariamente sem commitar.
+
+git stash pop → Recupera as mudanças guardadas.

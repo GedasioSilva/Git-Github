@@ -1,0 +1,13 @@
+-- Comando Git clean
+	comando pra tirar os arquivos criados não os arquivos antigos que tiveram alterações
+	comando pra tirar arquivos desnecessarios
+	pra não apagar arquivos desejados coloca git add e o nome do arquivo que quero enviar
+
+-- git gc -> comando pra tirar arquivos não necessarios
+
+-- git fsck -> comando pra verificar a integridade de arquivos
+
+-- git reflog -> vai mapear todos os seus passos no repositorio
+
+-- git archive -> Podemos transforma o repo em um arquivo compactado
+	git archive --format zip --output arquivos_master.zip master
