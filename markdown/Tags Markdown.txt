@@ -1,0 +1,32 @@
+Definição Markdown
+	Markdown é uma forma de adicionar estilo a textos na Web
+
+Titulos hierarquia de titulos de ve ao # quanto meno a hierarquia
+#h1 ##h2 ###h3 até 6h
+
+escreve negrito **texto** com 2 asteristicos antes e depois da frase
+escreve italico 1 asteristico antes e depois da frase
+
+Cria listar no markdown
+	Lista Não ordenada * olá
+	Lista ordenada 1. olá 
+
+colocando imagens por url e local no aquivo markdown
+	![logo python](img/logo-python.png) -> modo local
+	![logo python](https:/upload.logo.python)-> primeiro o texto depois a url
+
+colocando links no markdown
+	[Google](https://www.google.com.br/?hl=pt-BR)
+
+colocando código direto no markdown
+	````Javascript
+	function soma(a,b){
+		return a + b;
+	}
+	````
+Colocando lista de Tarefas
+	-[x] Área de membros
+	-[ ] sistema bonus
+		
+	
+	
